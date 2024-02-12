@@ -1,0 +1,67 @@
+.color-primary {
+    color: blue;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+p {
+    background-color: aqua;
+    color: #f2f2f2;
+    font-size: 50px;
+}
+
+input,
+img,
+select,
+button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.button-style {
+    height: 40px;
+    font-size: 20px;
+    color: blue;
+}
+
+.tb {
+    border: 1px solid #000;
+}
+
+.my-table {
+    width: 90%;
+    /* 표의 너비를 설정 */
+    border-collapse: collapse;
+    /* 셀 사이의 테두리를 합칩니다 */
+    margin: 20px auto;
+    /* 상하 여백 20px, 좌우 여백 자동 설정 */
+}
+
+.my-table-header td {
+    border: 1px solid black;
+    /* 헤더 셀의 테두리를 설정 */
+    text-align: center;
+    /* 헤더 셀 내용을 왼쪽 정렬 */
+    padding: 8px;
+    /* 헤더 셀 내용 주변의 여백을 설정 */
+    background-color: #f2f2f2;
+    /* 헤더 셀의 배경색을 설정 */
+}
+
+.my-table-row td {
+    border: 1px solid black;
+    /* 데이터 셀의 테두리를 설정 */
+    text-align: left;
+    /* 데이터 셀 내용을 왼쪽 정렬 */
+    padding: 8px;
+    /* 데이터 셀 내용 주변의 여백을 설정 */
+}
+
+#p1 {
+    background: yellowgreen;
+    color: blue;
+    font-weight: bold;
+
+}
